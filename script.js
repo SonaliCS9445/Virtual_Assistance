@@ -80,7 +80,7 @@ function takeCommand(message){
     else{
         let finalText = "`this is what i found on internet regarding" + message.replace("shifra","") || message.replace("shifra","")
         speak(finalText)
-        window.open(`https://in.search.yahoo.com/search?fr=${message.replace("Shifra","")}`,"_blank")
+        window.open(`https://www.bing.com/search?q=${message.replace("Shifra","")}`,"_blank")
     }
 
 }
